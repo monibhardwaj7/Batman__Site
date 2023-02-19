@@ -1,0 +1,159 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Container*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section {
+  /* background-color: #ff4c68; */
+  background-image: url("https://cdn.monstercat.com/background-tile.webp");
+  /* background-color: #000; */
+  color: #fff;
+}
+.white-section {
+  background-color: white;
+}
+
+/* Nav-bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title image */
+.image-div {
+  position: relative;
+  bottom: 50px;
+}
+.title-img {
+  width: 90%;
+  position: absolute;
+  left: 22%;
+}
+
+/* Features section */
+/* Stacking order and z-index */
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.features-box {
+  padding: 4%;
+}
+.icon {
+  color: #333;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #000;
+}
+
+/* Testimonials section*/
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 12%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+/* Footer section */
+.footer-icon {
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1036px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  .image-div {
+    position: relative;
+    bottom: 0px;
+  }
+}
